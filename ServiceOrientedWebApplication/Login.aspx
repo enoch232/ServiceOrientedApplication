@@ -7,9 +7,16 @@
     <title></title>
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form id="login_form" runat="server">
         <div>
+            Username:
+            <asp:TextBox ID="username_textbox" runat="server"></asp:TextBox>
         </div>
+        <div>
+            Password:
+            <asp:TextBox ID="password_textbox" runat="server"></asp:TextBox>
+        </div>
+        <asp:Button ID="login_button" runat="server" Text="Login" />
     </form>
 </body>
 </html>

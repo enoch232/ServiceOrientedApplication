@@ -7,7 +7,11 @@
     <title></title>
 </head>
 <body>
-    <form id="form1" runat="server">
+    <div>
+        <h1>Member Page</h1>
+        <h3>This page let's you access the web services. Only members have access to this page.</h3>
+    </div>
+    <form id="member_form" runat="server">
         <div>
         </div>
     </form>
