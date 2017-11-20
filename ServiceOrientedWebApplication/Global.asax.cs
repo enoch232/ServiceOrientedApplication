@@ -14,8 +14,9 @@ namespace ServiceOrientedWebApplication
         void Application_Start(object sender, EventArgs e)
         {
             // Code that runs on application startup
-            Application["active_user_count"] = 0;
-            Application["visitor_count"] = 0;
+            Application["active_user_count"] = 1;
+            Application["visitor_count"] = 1;
+            
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
@@ -39,5 +40,7 @@ namespace ServiceOrientedWebApplication
             Application["active_user_count"] = active_user_count--;
             Application.UnLock();
         }
+
+
     }
 }

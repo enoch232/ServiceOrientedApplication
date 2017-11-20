@@ -10,7 +10,34 @@
 namespace ServiceOrientedWebApplication {
     
     
-    public partial class _Default {
+    public partial class LocalComponents {
+        
+        /// <summary>
+        /// local_component_form control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlForm local_component_form;
+        
+        /// <summary>
+        /// visit_count_label control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label visit_count_label;
+        
+        /// <summary>
+        /// login_button control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button login_button;
         
         /// <summary>
         /// service_directory_button control.
@@ -20,23 +47,5 @@ namespace ServiceOrientedWebApplication {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button service_directory_button;
-        
-        /// <summary>
-        /// member_button control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button member_button;
-        
-        /// <summary>
-        /// staff_button control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button staff_button;
     }
 }

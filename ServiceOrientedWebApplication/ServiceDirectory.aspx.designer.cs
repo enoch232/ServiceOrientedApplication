@@ -10,33 +10,42 @@
 namespace ServiceOrientedWebApplication {
     
     
-    public partial class _Default {
+    public partial class ServiceDirectory {
         
         /// <summary>
-        /// service_directory_button control.
+        /// form1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button service_directory_button;
+        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// member_button control.
+        /// try_it_button1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button member_button;
+        protected global::System.Web.UI.WebControls.Button try_it_button1;
         
         /// <summary>
-        /// staff_button control.
+        /// try_it_button2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button staff_button;
+        protected global::System.Web.UI.WebControls.Button try_it_button2;
+        
+        /// <summary>
+        /// try_it_button3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button try_it_button3;
     }
 }
