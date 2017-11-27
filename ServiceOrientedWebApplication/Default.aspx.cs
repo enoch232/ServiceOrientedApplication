@@ -11,7 +11,22 @@ namespace ServiceOrientedWebApplication
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            var visit_count = (int)Application["visit_count"];
+        }
 
+        protected void service_directory_button_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("ServiceDirectory.aspx");
+        }
+
+        protected void member_button_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Member.aspx");
+        }
+
+        protected void staff_button_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Staff.aspx");
         }
     }
 }
